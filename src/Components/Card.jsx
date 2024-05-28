@@ -1,7 +1,7 @@
 import React from "react";
 import { useState, useEffect } from "react";
 
-const Pizza = ({ pedido }) => {
+const Card = ({ pedido }) => {
   const [show, setShow] = useState(false);
 
   useEffect(() => {
@@ -21,4 +21,4 @@ const Pizza = ({ pedido }) => {
   return <>{show && <p>{pedido}</p>}</>;
 };
 
-export default Pizza;
+export default Card;

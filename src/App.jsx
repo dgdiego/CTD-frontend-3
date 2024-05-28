@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <h1>Su pedido:</h1>
-      {!cancel && <Pizza pedido={"pizzas"}/>}
+      {!cancel && <Card pedido={"pizzas"}/>}
       <button onClick={() => setCancel(true)}>Cancelar pedido</button>
     </>
   );
