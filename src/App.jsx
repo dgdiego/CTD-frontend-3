@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./App.css";
-import Pizza from "./Components/Pizza";
+import Card from "./Components/Card";
 
 function App() {
 
